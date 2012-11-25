@@ -1,5 +1,6 @@
 ;;;; package.lisp
 
 (defpackage #:cl-ibe
-  (:use #:cl))
+  (:use #:cl)
+  (:export #:get-cipher #:encrypt #:decrypt))
 
